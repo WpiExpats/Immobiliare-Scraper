@@ -8,6 +8,5 @@ to scrape immobilaire.it listings:
 5. type the name of the text file you would like to write your results into on line 6 of scrapingLinks.txt
     the program will write each listing on each line of the file in the following format:(the location will be whatever comes before the last comma, either a neihgborhood or region of a city)
     location,price,numberOfRooms,squareMeters,link
-6. run mainScanner.java
-    if an error occurs at any point, note the last page scraped(see the terminal) and run the program again starting at the next page(by updating the page number on line 4). It will continue writing into the text file where you left off
-    pages will run into errors if a certain listing is missing a certain number, such as number of rooms or square meters 
+6. run mainScanner.java (how to run Install & Run Java in Visual Studio Code: https://www.youtube.com/watch?v=fbyobdxDQno)
+    If an error occurs at any point, note the last page scraped(see the terminal) and run the program again starting at the next page(by updating the page number on line 4). It will continue writing into the text file where you left off. Pages will run into errors if a certain listing is missing a certain number, such as number of rooms or square meters.
